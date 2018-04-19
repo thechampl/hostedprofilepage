@@ -1,0 +1,60 @@
+$primary-color: #35a7ff;
+$secondary-color: #333333;
+$background-color: #e5e5e5;
+
+#current{
+    color: $primary-color;
+    text-align: center
+}
+
+
+.card{
+color: $secondary-color;
+background-color: $background-color;
+text-decoration: none;
+}
+
+path{
+    color:$primary-color
+    
+}
+
+#about{
+    text-align: left;
+    color: $secondary-color
+}
+.navbarBrand{
+    color: $background-color
+}
+i{
+    color: $secondary-color;
+}
+
+.jumbotron{
+    background-color: $background-color;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#e5e5e5;
+}
+
+.card-text{
+    border: 0px;
+}
+
+.navbar{
+    background-color: $primary-color;
+    color:$secondary-color
+}
+
+#navbarDropdownMenuLink{
+    color:$secondary-color;
+}
+.dropdown-menu{
+    color: $primary-color;
+
+}
+
+
+

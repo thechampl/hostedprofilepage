@@ -1,0 +1,53 @@
+#current {
+  color: #35a7ff;
+  text-align: center;
+}
+
+.card {
+  color: #333333;
+  background-color: #e5e5e5;
+  text-decoration: none;
+}
+
+path {
+  color: #35a7ff;
+}
+
+#about {
+  text-align: left;
+  color: #333333;
+}
+
+.navbarBrand {
+  color: #e5e5e5;
+}
+
+i {
+  color: #333333;
+}
+
+.jumbotron {
+  background-color: #e5e5e5;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+.card-text {
+  border: 0px;
+}
+
+.navbar {
+  background-color: #35a7ff;
+  color: #333333;
+}
+
+#navbarDropdownMenuLink {
+  color: #333333;
+}
+
+.dropdown-menu {
+  color: #35a7ff;
+}

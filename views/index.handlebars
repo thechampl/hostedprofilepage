@@ -1,114 +1,124 @@
-<header>
-  <div class="bg-dark collapse" id="navbarHeader" style="">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 col-md-7 py-4">
-          <h4 class="text-white">About</h4>
-          <p class="text-muted">I am a web developer currently enrolled in a full stack coding bootcamp at UNC Charlotte. I enjoy challenges and
-            working on new projects frequently. I was born and have lived in Charlotte, NC my whole life and love it here. I will update and highlight some of the projects that I am currently working on towards the bottom.
-             Please feel free to contact me with any questions or opportunities. I look forward to working together soon! </p>
+<nav class="navbar navbar-expand-lg">
+  <p class="navbar-brand">Luke Champ Web Development</p>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item dropdown ">
+        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Connect With Me
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="https://www.linkedin.com/in/luke-champ-40a38594/">LinkedIn</a>
+          <a class="dropdown-item" href="https://github.com/thechampl">GitHub</a>
+          <a class="dropdown-item" href="mailto:luke.champ@outlook.com">Email</a>
         </div>
-        <div class="col-sm-4 py-4">
-          <h4 class="text-white">Contact</h4>
-          <ul class="list-unstyled">
-            <li>
-              <a href="https://www.linkedin.com/in/luke-champ-40a38594/" class="text-white">LinkedIn</a>
-            </li>
-            <li>
-              <a href="https://github.com/thechampl" class="text-white">GitHub</a>
-            </li>
-            <li>
-              <a href="mailto:luke.champ@outlook.com" class="text-white">Email me</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+      </li>
+    </ul>
   </div>
-  <div class="navbar navbar-dark navbar-fixed-top bg-dark box-shadow">
-    <div class="container d-flex justify-content-between">
-      <nav class="navbar-brand d-flex align-items-center">
-        <p>Luke Champ Web Development</p>
-    </nav>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </div>
-</header>
+</nav>
+
+
 
 <main role="main">
 
   <section class="jumbotron text-center">
     <div class="container">
-   
 
-     <img src="/assets/WebsitePieces/navbarLogo1.png" width="250" height="300" alt="Logo">
-     <h2>Current Projects</h2>
-
-
-    </div>
-  </section>
-  
-    <div class="container col-md-12">
       <div class="row">
 
-  <div class="col-md-4">
-   <div class="card text-primary border-primary mb-3" style="min-height:100%">
-       <i class="fas fa-university""card-img-top img-responsive" style="height: 150px; width: 100%; display: block;"></i>  
-      <div class="card-body">
-        <p class="card-text">Current Project: 311</p>
-        <p class="card-text">A link between citizen and government to make the process of government services or web site forms
-          easier and more responsive.
-          </p>
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group">
-            <button type="button" class="btn btn-outline-primary">
-              <a href="https://github.com/thechampl/311">GitHub Link</a>
-            </button>
-          </div>
 
+
+        <div class="col-md-8">
+          <img src="/assets/WebsitePieces/navbarLogo1.png" width="250" height="300" alt="Logo">
+        </div>
+
+
+        <div class="col-md-4" style="color= #333333">
+          <h3>About Me</h3>
+          <p id="about" >I am a web developer currently enrolled in a full stack coding bootcamp at UNC Charlotte. I enjoy challenges and
+            working on new projects frequently. I was born and have lived in Charlotte, NC my whole life and love it here.
+            I will update and highlight some of the projects that I am currently working on towards the bottom. Please feel
+            free to contact me with any questions or opportunities. I look forward to working together soon!</p>
+
+
+
+  </section>
+
+  <div class="container col-md-12" id="current">
+    <h2>Current Projects</h2>
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="card-text" style="min-height:100%">
+              <i class="fas fa-university" "card-img-top img-responsive" style="height: 150px; width: 100%; display: block;"></i>
+              <p class="card-text">Current Project: 311</p>
+              <p class="card-text">A link between citizen and government to make the process of government services or web site forms easier and
+                more responsive.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-outline-primary">
+                    <a href="https://github.com/thechampl/311">GitHub Link</a>
+                  </button>
+                  <button type="button" class="btn btn-outline-primary">
+                    <a href="https://simpl311.herokuapp.com/">Heroku</a>
+                  </button>
+                </div>
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
 
- <div class="col-md-4 ">
-   <div class="card text-primary border-primary mb-3" style="min-height:100%">
-      <i class="fas fa-heart""card-img-top img-responsive" style="height: 150px; width: 100%; display: block;"></i>        
-      <div class="card-body">
-        <p class="card-text">FriendFinder</p>
-        <p class="card-text">Full Stack App that generates data and uses logic to find closest match friend from database.</p>
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group">
-            <button type="button" class="btn btn-outline-primary">
-              <a href="https://github.com/thechampl/FriendFinder">GitHub Link</a>
-            </button>
+      <div class="col-md-4 ">
+        <div class="card">
+          <div class="card-body">
+            <div class="card-text" style="min-height:100%">
+              <i class="fas fa-heart" "card-img-top img-responsive" style="height: 150px; width: 100%; display: block;"></i>
+              <p class="card-text">FriendFinder</p>
+              <p class="card-text">Full Stack App that generates data and uses logic to find closest match friend from database.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-outline-primary">
+                    <a href="https://github.com/thechampl/FriendFinder">GitHub Link</a>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-           </div>
-      </div>
-    </div>
-  </div>
-
-<div class="col-md-4">
-   <div class="card text-primary border-primary mb-3" style="min-height:100%">
-       <i class="far fa-question-circle card-img-top img-responsive" style="height: 150px; width: 100%; display: block;"></i>  
-      <div class="card-body">
-        <p class="card-text">Slack Trivia</p>
-        <p class="card-text">A trivia app that can receive responses from a Slack channel and store data on Firebase to display a winner. </p>
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group">
-            <button type="button" class="btn btn-outline-primary ">
-              <a href="https://github.com/thechampl/Group-Project-1">GitHub Link</a>
-            </button>
-          </div>
-
         </div>
       </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="card-text" style="min-height:100%">
+              <i class="far fa-question-circle card-img-top img-responsive" style="height: 150px; width: 100%; display: block;"></i>
+              <p class="card-text">Slack Trivia</p>
+              <p class="card-text">A trivia app that can receive responses from a Slack channel and store data on Firebase to display a winner.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-outline-primary ">
+                    <a href="https://github.com/thechampl/Group-Project-1">GitHub Link</a>
+                  </button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
-
   </div>
   </div>
   </div>
@@ -116,8 +126,6 @@
   </div>
   </div>
   </div>
-</div>
-</div>
 </main>
 
 
