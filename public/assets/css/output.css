@@ -51,3 +51,7 @@ a:hover {
 .dropdown-menu {
   color: #35a7ff;
 }
+
+.navbar-toggler-icon {
+  background-color: #333333;
+}
