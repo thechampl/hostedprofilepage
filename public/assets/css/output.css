@@ -55,3 +55,15 @@ a:hover {
 .navbar-toggler-icon {
   background-color: #333333;
 }
+
+#logo {
+  -webkit-transition: opacity 2s ease-in;
+  -moz-transition: opacity 2s ease-in;
+  -ms-transition: opacity 2s ease-in;
+  -o-transition: opacity 2s ease-in;
+  transition: opacity 2s ease-in;
+}
+
+#logo.load {
+  opacity: 1;
+}
